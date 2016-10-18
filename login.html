@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BLOG</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<style type="text/css">	
+	body{
+		background-color: #000;
+	}	
+	form{
+		background-color: cyan;
+		margin: 20px 0 0 0;
+		border:5px solid #66ccff;
+		padding: 20px;
+	}
+	h1{
+		color: #fff;
+
+	}
+	#sub{
+		background-color: #000;
+		color: #fff;
+		border-radius: 20px;
+		padding: 20px;
+	}
+	</style>
+</head>
+<div class="container">
+	<h1 class="text-center">LOGIN</h1>
+	<div class="col-xs-2"></div>
+	<form class="form-horizontal col-xs-8" action="home" method="post">
+		<div class="form-group">
+			<label for="focusedInput">UserName</label>
+			<input class="form-control" id="focusedInput" type="text" name="loginname" required>
+		</div>
+		<div class="form-group">
+			<label for="focusedInput">Password</label>
+			<input class="form-control" id="focusedInput" type="password" name="loginpass" required>
+		</div>
+		<input type="submit" value="Login" id="sub"> 
+		<a href="forgot">Forgot Password ?</a>
+	</form>
+</html>
